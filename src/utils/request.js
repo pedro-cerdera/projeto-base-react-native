@@ -24,11 +24,11 @@ export default async ({
   onUploadProgress = undefined,
   onRequestFail = error => Alert.alert("Erro", error, [{ title: "OK" }]),
 }) => {
-  // console.tron.display({
-  //   name: "REQUEST",
-  //   preview: `${method} request in URL: ${url}`,
-  //   value: { method, url, params, data, token, onUploadProgress },
-  // });
+  console.tron.display({
+    name: "REQUEST",
+    preview: `${method} request in URL: ${url}`,
+    value: { method, url, params, data, token, onUploadProgress },
+  });
   let response = { data: {} };
   try {
     response = await axios({
