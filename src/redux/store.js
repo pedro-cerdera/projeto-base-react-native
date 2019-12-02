@@ -1,7 +1,7 @@
 import Reducers from "reducers";
 import { combineReducers, createStore, applyMiddleware, compose } from "redux";
 
-// import Reactotron from "../../ReactotronConfig";
+import Reactotron from "../../ReactotronConfig";
 import { middlewares } from "./middlewares";
 
 const reducers = combineReducers({
@@ -10,9 +10,9 @@ const reducers = combineReducers({
 
 const compositions = [applyMiddleware(...middlewares)];
 
-// if (__DEV__) {
-//   compositions.push(Reactotron.createEnhancer());
-// }
+if (__DEV__) {
+  compositions.push(Reactotron.createEnhancer());
+}
 
 const composer = compose(...compositions);
 
