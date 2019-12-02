@@ -1,0 +1,53 @@
+{
+  "extends": ["@react-native-community"],
+  "parser": "babel-eslint",
+  "plugins": ["eslint-plugin-import-helpers"],
+  "rules": {
+    "quotes": [1, "double", "avoid-escape"], // specify whether double or single quotes should be used
+    "react/jsx-curly-brace-presence": [1, { "props": "always", "children": "ignore" }],
+    "react/sort-comp": [1, {
+      "order": [
+        "static-variables",
+        "static-methods",
+        "instance-variables",
+        "lifecycle",
+        "/^on.+$/",
+        "getters",
+        "setters",
+        "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
+        "instance-methods",
+        "everything-else",
+        "rendering"
+      ],
+      "groups": {
+        "rendering": [
+          "/^render.+$/",
+          "render"
+        ]
+      }
+    }],
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        // example configuration
+        "newlinesBetween": "always",
+        "groups": [
+          ["/react/", "/react-native/"],
+          ["module"],
+          ["/^assets/"],
+          ["parent", "sibling"],
+          ["/.\/styles/"]
+        ],
+        "alphabetize": { "order": "asc", "ignoreCase": true }
+      }
+    ],
+    "comma-dangle": [0],
+    "semi": [0],
+    "prefer-template": [2],
+    "eol-last": [0],
+    "prettier/prettier": [
+      1,
+      {"singleQuote": false, "trailingComma": "es5", "semi": true}
+    ]
+  }
+}
