@@ -19,7 +19,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ContempleiInvestidoresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContempleiInvestidoresTests.m; sourceTree = "<group>"; };
 		06BF98481F13017EB5CC379A /* Pods-ContempleiInvestidores-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores-tvOSTests/Pods-ContempleiInvestidores-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ContempleiInvestidores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContempleiInvestidores.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investidores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contemplei&#x2007;Investidores.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ContempleiInvestidores/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ContempleiInvestidores/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ContempleiInvestidores.app */,
+				13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investidores.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 			);
 			name = ContempleiInvestidores;
 			productName = ContempleiInvestidores;
-			productReference = 13B07F961A680F5B00A75B9A /* ContempleiInvestidores.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investidores.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +174,7 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Facebook;
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ContempleiInvestidores" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Contemplei Investidores" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -303,7 +303,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ContempleiInvestidores;
+				PRODUCT_NAME = "Contemplei&#x2007;Investidores";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -322,7 +322,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ContempleiInvestidores;
+				PRODUCT_NAME = "Contemplei&#x2007;Investidores";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -438,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ContempleiInvestidores" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Contemplei Investidores" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
