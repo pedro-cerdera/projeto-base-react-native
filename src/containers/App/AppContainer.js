@@ -10,7 +10,7 @@ const AppContainer = createSwitchNavigator(
     Authorized: ModalNavigator,
   },
   {
-    initialRouteName: "AuthLoading",
+    initialRouteName: "Unauthorized",
   }
 );
 

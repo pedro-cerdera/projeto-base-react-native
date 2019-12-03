@@ -3,7 +3,7 @@ import StyleGuide from "styleguide";
 
 export const SafeAreaContainer = styled.SafeAreaView`
   flex: 1;
-  background-color: ${StyleGuide.colors.white};
+  /* background-color: ${StyleGuide.colors.white}; */
 `;
 
 export const DefaultSpacingContainer = styled.View`

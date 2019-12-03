@@ -31,8 +31,8 @@ export function getStyle(weight, style) {
 const Typography = {
   defaultFontFamily: `Montserrat-${getStyle("regular", "")}`,
   title: {
-    size: 30,
-    lineHeight: 37,
+    size: 20,
+    lineHeight: 34,
     weight: "bold",
   },
   mediumTitle: {

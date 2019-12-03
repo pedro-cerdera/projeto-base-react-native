@@ -1,5 +1,5 @@
 import Text from "components/Text/Text";
-import { scale } from "helpers";
+import { scale, fontScale } from "helpers";
 import PropTypes from "prop-types";
 import styled from "styled-components/native";
 
@@ -26,9 +26,9 @@ BaseText.defaultProps = {
 export const CustomText = styled(BaseText).attrs(props => ({
   weight: props.weight || Typography[props.type].weight,
 }))`
-  font-size: ${props => scale(props.size || Typography[props.type].size)}px;
+  font-size: ${props => fontScale(props.size || Typography[props.type].size)}px;
   line-height: ${props =>
-    scale(props.lineHeight || Typography[props.type].lineHeight)}px;
+    fontScale(props.lineHeight || Typography[props.type].lineHeight)}px;
 `;
 
 CustomText.defaultProps = {

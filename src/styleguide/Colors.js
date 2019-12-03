@@ -1,7 +1,6 @@
 const primaryColor = "#3949AB";
-const secundaryColor = "#4555AF";
-const secundaryColorLighten = "#4555AF33";
-const secundaryColorLight = "#4555AF9C";
+const secundaryColor = "#6E45AF";
+const primaryryColorTranparent = "#6E45AF00";
 const textColor = "#343434";
 const captionColor = "#585858";
 const lightGreyColor = "#B7B7B7";
@@ -15,8 +14,6 @@ const Colors = {
   primary: primaryColor,
   secundary: secundaryColor,
 
-  secundaryLighten: secundaryColorLighten,
-  secundaryLight: secundaryColorLight,
   green: greenColor,
   white: whiteColor,
   black: blackColor,
@@ -27,12 +24,23 @@ const Colors = {
   text: textColor,
   textOpacity: textOpacityColor,
   caption: captionColor,
+
+  gradient: {
+    primary: [primaryColor, secundaryColor],
+    primaryBig: [primaryryColorTranparent, "#4B48AC", secundaryColor],
+  },
 };
 
 export default Colors;
 
 export const ColorNames = {
   ...Object.entries(Colors)
+    .filter(entry => entry[0] !== "gradient")
     .map(([key, color]) => ({ [key]: key }))
+    // .concat(
+    //   ...Object.entries(Colors.gradient).map(([key, color]) => ({
+    //     [`gradient-${key}`]: key,
+    //   }))
+    // )
     .reduce((acc, curr) => ({ ...acc, ...curr }), {}),
 };
