@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "603151749156",
+    "firebase_url": "https://contemplei-test.firebaseio.com",
+    "project_id": "contemplei-test",
+    "storage_bucket": "contemplei-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603151749156:android:486e351ce69b495dca48b1",
+        "android_client_info": {
+          "package_name": "com.contempleiinvestidores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603151749156-9mf6dd31uoti4bjb6k6vch0gr1bao2lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVrM6XkCvS9bila3QUh-O5kphhw1nfBvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603151749156-9mf6dd31uoti4bjb6k6vch0gr1bao2lj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

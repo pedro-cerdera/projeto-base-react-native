@@ -1,25 +1,33 @@
 import React, { useEffect } from "react";
 import { ActivityIndicator, View } from "react-native";
 import SplashScreen from "react-native-splash-screen";
+import { connect } from "react-redux";
+
+import { Actions } from "reducers";
 
 import styles from "./styles";
 
-const AuthLoadingScreen = ({ navigation, dispatch }) => {
+const mapStoreToProps = store => ({
+  isLoaded: store.RemoteConfigReducer.isLoaded,
+});
+
+
+const AuthLoadingScreen = ({ navigation, dispatch, isLoaded }) => {
   useEffect(() => {
     const decideRoute = async () => {
-      // await UserStorage.setToken(null);
-      // const token = await UserStorage.getToken();
-      // if (token) {
-      //   navigation.navigate("Home");
-      //   dispatch(Actions.Auth.loadStart());
-      // } else {
-      navigation.navigate("Onboarding");
-      setTimeout(() => SplashScreen.hide(), 1000);
-
-      // }
+      dispatch(Actions.RemoteConfig.start("unauthorized"));
     };
     decideRoute();
   }, [dispatch, navigation]);
+
+  console.tron.log(isLoaded)
+
+  useEffect(() => {
+    if (isLoaded) {
+      navigation.navigate("Onboarding");
+      setTimeout(() => SplashScreen.hide(), 1000);
+    }
+  }, [isLoaded, navigation]);
 
   return (
     <>
@@ -34,4 +42,4 @@ AuthLoadingScreen.navigationOptions = {
   header: null,
 };
 
-export default AuthLoadingScreen;
+export default connect(mapStoreToProps)(AuthLoadingScreen);

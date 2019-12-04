@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { ImageBackground, StatusBar } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import Carousel, { Pagination } from "react-native-snap-carousel";
+import { connect } from "react-redux";
 
 import {
   Button,
@@ -9,16 +10,21 @@ import {
   OnboardingItem,
   SafeAreaContainer,
 } from "components";
-import { DEVICE_WIDTH, isSmallDevice } from "helpers";
+import { DEVICE_WIDTH, isSmallDevice, getImageSource } from "helpers";
 import Colors from "styleguide/Colors";
 
-import { items, BackgroundImage, CTA } from "./constants";
+// import { items, BackgroundImage, CTA } from "./constants";
 
 import styles from "./styles";
 
-const OnboardingScreen = () => {
+const mapStoreToProps = store => ({
+  configs: store.RemoteConfigReducer.configs,
+});
+
+const OnboardingScreen = ({ configs }) => {
   const [activeSlider, setActiveSlider] = useState(0);
   const carouselRef = useRef(null);
+  console.tron.log("a", configs);
 
   return (
     <>
@@ -28,7 +34,7 @@ const OnboardingScreen = () => {
         translucent
       />
       <ImageBackground
-        source={BackgroundImage}
+        source={getImageSource("background")}
         style={styles.imageBackgroudContainer}
         blurRadius={2}
       >
@@ -41,7 +47,7 @@ const OnboardingScreen = () => {
             <DefaultSpacingContainer disableBottomSpacing>
               <Carousel
                 ref={carousel => (carouselRef.current = carousel)}
-                data={items}
+                data={(configs.onboarding && configs.onboarding.ITEMS) || []}
                 loop
                 autoplay
                 lockScrollWhileSnapping
@@ -53,7 +59,9 @@ const OnboardingScreen = () => {
                 onSnapToItem={setActiveSlider}
               />
               <Pagination
-                dotsLength={items.length}
+                dotsLength={
+                  (configs.onboarding && configs.onboarding.ITEMS.length) || 0
+                }
                 activeDotIndex={activeSlider}
                 dotColor={Colors.white}
                 dotStyle={styles.dotStyle}
@@ -68,7 +76,7 @@ const OnboardingScreen = () => {
                 theme={"outline"}
                 color={"white"}
               >
-                {CTA}
+                {configs.onboarding && configs.onboarding.CTA}
               </Button>
             </DefaultSpacingContainer>
           </SafeAreaContainer>
@@ -82,4 +90,4 @@ OnboardingScreen.navigationOptions = {
   header: null,
 };
 
-export default OnboardingScreen;
+export default connect(mapStoreToProps)(OnboardingScreen);
