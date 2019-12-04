@@ -6,19 +6,19 @@ import WindowImage from "assets/images/onboarding/window.png";
 export const items = [
   {
     image: VaultImage,
-    title: "Bem vindo ao Cotemplei Investidores",
+    title: "Bem vindo ao\nContemplei Investimentos",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.",
   },
   {
     image: WindowImage,
-    title: "Bem vindo ao Cotemplei Investidores",
+    title: "Bem vindo ao\nContemplei Investimentos",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.",
   },
   {
     image: ChartImage,
-    title: "Bem vindo ao Cotemplei Investidores",
+    title: "Bem vindo ao\nContemplei Investimentos",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.",
   },
