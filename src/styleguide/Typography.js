@@ -29,10 +29,10 @@ export function getStyle(weight, style) {
 }
 
 const Typography = {
-  defaultFontFamily: `Montserrat-${getStyle("regular", "")}`,
+  defaultFontFamily: `Poppins-${getStyle("regular", "")}`,
   title: {
     size: 20,
-    lineHeight: 34,
+    lineHeight: 30,
     weight: "bold",
   },
   mediumTitle: {
@@ -67,7 +67,7 @@ const Typography = {
   },
   button: {
     size: 18,
-    lineHeight: 22,
+    lineHeight: 27,
     weight: "regular",
   },
   link: {

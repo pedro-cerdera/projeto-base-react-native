@@ -16,7 +16,7 @@ export const Header = {
     marginLeft: 20,
   },
   headerTitleStyle: {
-    fontFamily: `Montserrat-${getStyle("bold", "")}`,
+    fontFamily: `Poppins-${getStyle("bold", "")}`,
     color: StyleGuide.colors.text,
     fontSize: 17,
   },

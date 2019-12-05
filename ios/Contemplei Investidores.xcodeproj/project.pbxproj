@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DEF3F29F08F4EE683368BAE /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B102B2D663CB4CB2B05EB709 /* Poppins-BlackItalic.ttf */; };
+		12E4950406E74411B689F2FD /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1BB2C4884264DAD83FFC6C4 /* Poppins-Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		59CF66634436B03CA8CBDA17 /* libPods-ContempleiInvestidores.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30E21D60047174C4BC5B5B /* libPods-ContempleiInvestidores.a */; };
-		FEC442FD23959B0100111300 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442EB23959B0000111300 /* Montserrat-Thin.ttf */; };
-		FEC442FE23959B0100111300 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442EC23959B0000111300 /* Montserrat-ThinItalic.ttf */; };
-		FEC442FF23959B0100111300 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442ED23959B0000111300 /* Montserrat-BlackItalic.ttf */; };
-		FEC4430023959B0100111300 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442EE23959B0000111300 /* Montserrat-ExtraBold.ttf */; };
-		FEC4430123959B0100111300 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442EF23959B0000111300 /* Montserrat-ExtraLightItalic.ttf */; };
-		FEC4430223959B0100111300 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442F023959B0000111300 /* Montserrat-Black.ttf */; };
-		FEC4430323959B0100111300 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442F123959B0000111300 /* Montserrat-Bold.ttf */; };
-		FEC4430423959B0100111300 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442F223959B0000111300 /* Montserrat-Medium.ttf */; };
-		FEC4430523959B0100111300 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442F323959B0000111300 /* Montserrat-BoldItalic.ttf */; };
-		FEC4430623959B0100111300 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442F423959B0100111300 /* Montserrat-Italic.ttf */; };
-		FEC4430723959B0100111300 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442F523959B0100111300 /* Montserrat-Regular.ttf */; };
-		FEC4430823959B0100111300 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442F623959B0100111300 /* Montserrat-ExtraBoldItalic.ttf */; };
-		FEC4430923959B0100111300 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442F723959B0100111300 /* Montserrat-SemiBoldItalic.ttf */; };
-		FEC4430A23959B0100111300 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442F823959B0100111300 /* Montserrat-ExtraLight.ttf */; };
-		FEC4430B23959B0100111300 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442F923959B0100111300 /* Montserrat-SemiBold.ttf */; };
-		FEC4430C23959B0100111300 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442FA23959B0100111300 /* Montserrat-Light.ttf */; };
-		FEC4430D23959B0100111300 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442FB23959B0100111300 /* Montserrat-MediumItalic.ttf */; };
-		FEC4430E23959B0100111300 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC442FC23959B0100111300 /* Montserrat-LightItalic.ttf */; };
+		1C9D66D0370D4773BDE2FBD9 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F755863E57134FC9A5FBDE80 /* Poppins-BoldItalic.ttf */; };
+		1F1B4EFF85D14241AFA095FA /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F04349FE0A14438A872DB07 /* Poppins-SemiBoldItalic.ttf */; };
+		32905020D1A34DBA9A36EDB1 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21E7369D8DE148939E464A16 /* Poppins-SemiBold.ttf */; };
+		3DAFEE2C04A44D738E2EB799 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F62D118BAC64E68A09EBC03 /* Poppins-ExtraLightItalic.ttf */; };
+		5EA3241D5AE8434087A4234B /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9370E0EE748ABAF13F71D /* Poppins-ThinItalic.ttf */; };
+		60120FF2B12549C3AC92D029 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8972E2805414CA5BB05E002 /* Poppins-Thin.ttf */; };
+		63E1142B85AC4C4E8DCDECC5 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9827BABD9B2241D7B4CEF5E0 /* Poppins-ExtraBoldItalic.ttf */; };
+		6E7EA3B84AF745E68A1616A4 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C331C4D8FEEF47D2BAE3F314 /* Poppins-ExtraBold.ttf */; };
+		7F0FA106E17B4C0E92B4E386 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 026E11FA5F9A4704B28F2E7D /* Poppins-ExtraLight.ttf */; };
+		A65245F6539D49D6B2EE4C92 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD9AC679DA54CD4BD61B08C /* Poppins-MediumItalic.ttf */; };
+		A9587DEA98374C45B44808EC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE846616D37A442F96FA2939 /* Poppins-Medium.ttf */; };
+		AEC9CE7C3299461D90D7A8A6 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFD38BB3BF73427292E24794 /* Poppins-Black.ttf */; };
+		BA92D0FE5F094402ADBEE685 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02129FE8E44A49A4AF9E67CD /* Poppins-Light.ttf */; };
+		DCFA976E13D649A1BDF4CDB4 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80C846B985734468856F8BA4 /* Poppins-Regular.ttf */; };
+		E69129BF3F7D4D2BAD9161EA /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3876134B638F42C39B576ADC /* Poppins-LightItalic.ttf */; };
+		EB7EEB0A2CFC4E6F8B5914A6 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC6A50A042948FB81896077 /* Poppins-Italic.ttf */; };
+		F8604E839143F65489C2F020 /* libPods-ContempleiInvestidores.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D11E69324BB9CECBDF9598 /* libPods-ContempleiInvestidores.a */; };
 		FEC44317239827CD00111300 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEC44316239827CD00111300 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,8 @@
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ContempleiInvestidoresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContempleiInvestidoresTests.m; sourceTree = "<group>"; };
-		06BF98481F13017EB5CC379A /* Pods-ContempleiInvestidores-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores-tvOSTests/Pods-ContempleiInvestidores-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		02129FE8E44A49A4AF9E67CD /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		026E11FA5F9A4704B28F2E7D /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investidores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Contemplei&#x2007;Investidores.app"; path = "Contemplei&#x2007;Investimentos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ContempleiInvestidores/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ContempleiInvestidores/AppDelegate.m; sourceTree = "<group>"; };
@@ -45,52 +46,42 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ContempleiInvestidores/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ContempleiInvestidores/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ContempleiInvestidores/main.m; sourceTree = "<group>"; };
-		236B372310EC879EE24732E5 /* Pods-ContempleiInvestidoresTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidoresTests.release.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidoresTests/Pods-ContempleiInvestidoresTests.release.xcconfig"; sourceTree = "<group>"; };
-		2C88BDE7671640484AB923CD /* libPods-ContempleiInvestidoresTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContempleiInvestidoresTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F47F1A15EBCDDD74ED3AFAB /* Pods-ContempleiInvestidores-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores-tvOSTests/Pods-ContempleiInvestidores-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		4CD970295883B829E5273A87 /* Pods-ContempleiInvestidores-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores-tvOS/Pods-ContempleiInvestidores-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1CD9AC679DA54CD4BD61B08C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../src/assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		21E7369D8DE148939E464A16 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		3876134B638F42C39B576ADC /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../src/assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
 		54527716383745C4BCF283A1 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		58B8504105254CA996099717 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		5F04349FE0A14438A872DB07 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		66AB57A6A23A4AC2B333C963 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		7554443D2D63AB9478E0FC47 /* libPods-ContempleiInvestidores-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContempleiInvestidores-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC9585BA8A380A42F0D52DB /* Pods-ContempleiInvestidores.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores.release.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores/Pods-ContempleiInvestidores.release.xcconfig"; sourceTree = "<group>"; };
+		80C846B985734468856F8BA4 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		879C3D314E5E4486930989BC /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		883F0AF0D550CE49D484ED88 /* Pods-ContempleiInvestidores.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores.debug.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores/Pods-ContempleiInvestidores.debug.xcconfig"; sourceTree = "<group>"; };
 		8EB4BEE50481455080371043 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		9055167112B144ABA0BEE804 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		955C86153466B8DD255B5B25 /* Pods-ContempleiInvestidores-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores-tvOS/Pods-ContempleiInvestidores-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		973BE6CB12494912A202F229 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		9827BABD9B2241D7B4CEF5E0 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		9AC6A50A042948FB81896077 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../src/assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		9C48CBBF871C4D89991A0F86 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		9F62D118BAC64E68A09EBC03 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A0D11E69324BB9CECBDF9598 /* libPods-ContempleiInvestidores.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContempleiInvestidores.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7900D5F35E15A57E2479E77 /* Pods-ContempleiInvestidores.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores.debug.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores/Pods-ContempleiInvestidores.debug.xcconfig"; sourceTree = "<group>"; };
+		B102B2D663CB4CB2B05EB709 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../src/assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
 		B235A0F0DA1445A6B34E5BB8 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		B553D9631A694DFB89DBCDBB /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		C331C4D8FEEF47D2BAE3F314 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
 		C545BE0574784565BDD42467 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		C5F1BF66DCF24D0889F180DB /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		CFF4222DA06860D70B2AFE4F /* libPods-ContempleiInvestidores-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContempleiInvestidores-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D47ED951B7FD8E3172E3F461 /* Pods-ContempleiInvestidores.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores.release.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores/Pods-ContempleiInvestidores.release.xcconfig"; sourceTree = "<group>"; };
+		C8972E2805414CA5BB05E002 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		DA3405A9FF6B4AC49A8152F3 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		DAF57AC575F34E09BC8F9F46 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		E5C16E90A9A549C4E9567FB6 /* Pods-ContempleiInvestidoresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidoresTests.debug.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidoresTests/Pods-ContempleiInvestidoresTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE846616D37A442F96FA2939 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		DFD38BB3BF73427292E24794 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		E2A9370E0EE748ABAF13F71D /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../src/assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EE210055EB7D4DA0933BFBB4 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		FB30E21D60047174C4BC5B5B /* libPods-ContempleiInvestidores.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContempleiInvestidores.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEC442EB23959B0000111300 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
-		FEC442EC23959B0000111300 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ThinItalic.ttf"; path = "../src/assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
-		FEC442ED23959B0000111300 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BlackItalic.ttf"; path = "../src/assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
-		FEC442EE23959B0000111300 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../src/assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
-		FEC442EF23959B0000111300 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		FEC442F023959B0000111300 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Black.ttf"; path = "../src/assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
-		FEC442F123959B0000111300 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		FEC442F223959B0000111300 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		FEC442F323959B0000111300 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
-		FEC442F423959B0100111300 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Italic.ttf"; path = "../src/assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
-		FEC442F523959B0100111300 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		FEC442F623959B0100111300 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		FEC442F723959B0100111300 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		FEC442F823959B0100111300 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLight.ttf"; path = "../src/assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
-		FEC442F923959B0100111300 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
-		FEC442FA23959B0100111300 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
-		FEC442FB23959B0100111300 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-MediumItalic.ttf"; path = "../src/assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
-		FEC442FC23959B0100111300 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-LightItalic.ttf"; path = "../src/assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		F1BB2C4884264DAD83FFC6C4 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F755863E57134FC9A5FBDE80 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../src/assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
 		FEC4430F2397041400111300 /* ContempleiInvestidores-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContempleiInvestidores-Bridging-Header.h"; sourceTree = "<group>"; };
 		FEC44316239827CD00111300 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "ContempleiInvestidores/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FECA83B8A1A94668A5FAEB3E /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
@@ -101,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59CF66634436B03CA8CBDA17 /* libPods-ContempleiInvestidores.a in Frameworks */,
+				F8604E839143F65489C2F020 /* libPods-ContempleiInvestidores.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,10 +137,7 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				FB30E21D60047174C4BC5B5B /* libPods-ContempleiInvestidores.a */,
-				7554443D2D63AB9478E0FC47 /* libPods-ContempleiInvestidores-tvOS.a */,
-				CFF4222DA06860D70B2AFE4F /* libPods-ContempleiInvestidores-tvOSTests.a */,
-				2C88BDE7671640484AB923CD /* libPods-ContempleiInvestidoresTests.a */,
+				A0D11E69324BB9CECBDF9598 /* libPods-ContempleiInvestidores.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,24 +152,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				FEC442F023959B0000111300 /* Montserrat-Black.ttf */,
-				FEC442ED23959B0000111300 /* Montserrat-BlackItalic.ttf */,
-				FEC442F123959B0000111300 /* Montserrat-Bold.ttf */,
-				FEC442F323959B0000111300 /* Montserrat-BoldItalic.ttf */,
-				FEC442EE23959B0000111300 /* Montserrat-ExtraBold.ttf */,
-				FEC442F623959B0100111300 /* Montserrat-ExtraBoldItalic.ttf */,
-				FEC442F823959B0100111300 /* Montserrat-ExtraLight.ttf */,
-				FEC442EF23959B0000111300 /* Montserrat-ExtraLightItalic.ttf */,
-				FEC442F423959B0100111300 /* Montserrat-Italic.ttf */,
-				FEC442FA23959B0100111300 /* Montserrat-Light.ttf */,
-				FEC442FC23959B0100111300 /* Montserrat-LightItalic.ttf */,
-				FEC442F223959B0000111300 /* Montserrat-Medium.ttf */,
-				FEC442FB23959B0100111300 /* Montserrat-MediumItalic.ttf */,
-				FEC442F523959B0100111300 /* Montserrat-Regular.ttf */,
-				FEC442F923959B0100111300 /* Montserrat-SemiBold.ttf */,
-				FEC442F723959B0100111300 /* Montserrat-SemiBoldItalic.ttf */,
-				FEC442EB23959B0000111300 /* Montserrat-Thin.ttf */,
-				FEC442EC23959B0000111300 /* Montserrat-ThinItalic.ttf */,
 				13B07FAE1A68108700A75B9A /* ContempleiInvestidores */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ContempleiInvestidoresTests */,
@@ -206,14 +176,8 @@
 		CA6976FCAB097E866A61E574 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				883F0AF0D550CE49D484ED88 /* Pods-ContempleiInvestidores.debug.xcconfig */,
-				D47ED951B7FD8E3172E3F461 /* Pods-ContempleiInvestidores.release.xcconfig */,
-				4CD970295883B829E5273A87 /* Pods-ContempleiInvestidores-tvOS.debug.xcconfig */,
-				955C86153466B8DD255B5B25 /* Pods-ContempleiInvestidores-tvOS.release.xcconfig */,
-				06BF98481F13017EB5CC379A /* Pods-ContempleiInvestidores-tvOSTests.debug.xcconfig */,
-				2F47F1A15EBCDDD74ED3AFAB /* Pods-ContempleiInvestidores-tvOSTests.release.xcconfig */,
-				E5C16E90A9A549C4E9567FB6 /* Pods-ContempleiInvestidoresTests.debug.xcconfig */,
-				236B372310EC879EE24732E5 /* Pods-ContempleiInvestidoresTests.release.xcconfig */,
+				A7900D5F35E15A57E2479E77 /* Pods-ContempleiInvestidores.debug.xcconfig */,
+				7BC9585BA8A380A42F0D52DB /* Pods-ContempleiInvestidores.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -237,6 +201,24 @@
 				66AB57A6A23A4AC2B333C963 /* Octicons.ttf */,
 				DA3405A9FF6B4AC49A8152F3 /* SimpleLineIcons.ttf */,
 				C5F1BF66DCF24D0889F180DB /* Zocial.ttf */,
+				DFD38BB3BF73427292E24794 /* Poppins-Black.ttf */,
+				B102B2D663CB4CB2B05EB709 /* Poppins-BlackItalic.ttf */,
+				F1BB2C4884264DAD83FFC6C4 /* Poppins-Bold.ttf */,
+				F755863E57134FC9A5FBDE80 /* Poppins-BoldItalic.ttf */,
+				C331C4D8FEEF47D2BAE3F314 /* Poppins-ExtraBold.ttf */,
+				9827BABD9B2241D7B4CEF5E0 /* Poppins-ExtraBoldItalic.ttf */,
+				026E11FA5F9A4704B28F2E7D /* Poppins-ExtraLight.ttf */,
+				9F62D118BAC64E68A09EBC03 /* Poppins-ExtraLightItalic.ttf */,
+				9AC6A50A042948FB81896077 /* Poppins-Italic.ttf */,
+				02129FE8E44A49A4AF9E67CD /* Poppins-Light.ttf */,
+				3876134B638F42C39B576ADC /* Poppins-LightItalic.ttf */,
+				DE846616D37A442F96FA2939 /* Poppins-Medium.ttf */,
+				1CD9AC679DA54CD4BD61B08C /* Poppins-MediumItalic.ttf */,
+				80C846B985734468856F8BA4 /* Poppins-Regular.ttf */,
+				21E7369D8DE148939E464A16 /* Poppins-SemiBold.ttf */,
+				5F04349FE0A14438A872DB07 /* Poppins-SemiBoldItalic.ttf */,
+				C8972E2805414CA5BB05E002 /* Poppins-Thin.ttf */,
+				E2A9370E0EE748ABAF13F71D /* Poppins-ThinItalic.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -248,13 +230,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ContempleiInvestidores" */;
 			buildPhases = (
-				2D7DF0F6BA08F9CB7E9DCA4D /* [CP] Check Pods Manifest.lock */,
+				79D91FF4BF89BA754FB838BC /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				71232DD1D2B0A2EB72CE36A3 /* [CP] Copy Pods Resources */,
+				70259925E0E490A1ABB043A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,27 +285,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC442FD23959B0100111300 /* Montserrat-Thin.ttf in Resources */,
-				FEC442FE23959B0100111300 /* Montserrat-ThinItalic.ttf in Resources */,
-				FEC442FF23959B0100111300 /* Montserrat-BlackItalic.ttf in Resources */,
-				FEC4430023959B0100111300 /* Montserrat-ExtraBold.ttf in Resources */,
-				FEC4430123959B0100111300 /* Montserrat-ExtraLightItalic.ttf in Resources */,
-				FEC4430223959B0100111300 /* Montserrat-Black.ttf in Resources */,
-				FEC4430323959B0100111300 /* Montserrat-Bold.ttf in Resources */,
-				FEC4430423959B0100111300 /* Montserrat-Medium.ttf in Resources */,
-				FEC4430523959B0100111300 /* Montserrat-BoldItalic.ttf in Resources */,
-				FEC4430623959B0100111300 /* Montserrat-Italic.ttf in Resources */,
-				FEC4430723959B0100111300 /* Montserrat-Regular.ttf in Resources */,
-				FEC4430823959B0100111300 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
-				FEC4430923959B0100111300 /* Montserrat-SemiBoldItalic.ttf in Resources */,
-				FEC4430A23959B0100111300 /* Montserrat-ExtraLight.ttf in Resources */,
-				FEC4430B23959B0100111300 /* Montserrat-SemiBold.ttf in Resources */,
-				FEC4430C23959B0100111300 /* Montserrat-Light.ttf in Resources */,
-				FEC4430D23959B0100111300 /* Montserrat-MediumItalic.ttf in Resources */,
-				FEC4430E23959B0100111300 /* Montserrat-LightItalic.ttf in Resources */,
 				FEC44317239827CD00111300 /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				AEC9CE7C3299461D90D7A8A6 /* Poppins-Black.ttf in Resources */,
+				0DEF3F29F08F4EE683368BAE /* Poppins-BlackItalic.ttf in Resources */,
+				12E4950406E74411B689F2FD /* Poppins-Bold.ttf in Resources */,
+				1C9D66D0370D4773BDE2FBD9 /* Poppins-BoldItalic.ttf in Resources */,
+				6E7EA3B84AF745E68A1616A4 /* Poppins-ExtraBold.ttf in Resources */,
+				63E1142B85AC4C4E8DCDECC5 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				7F0FA106E17B4C0E92B4E386 /* Poppins-ExtraLight.ttf in Resources */,
+				3DAFEE2C04A44D738E2EB799 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				EB7EEB0A2CFC4E6F8B5914A6 /* Poppins-Italic.ttf in Resources */,
+				BA92D0FE5F094402ADBEE685 /* Poppins-Light.ttf in Resources */,
+				E69129BF3F7D4D2BAD9161EA /* Poppins-LightItalic.ttf in Resources */,
+				A9587DEA98374C45B44808EC /* Poppins-Medium.ttf in Resources */,
+				A65245F6539D49D6B2EE4C92 /* Poppins-MediumItalic.ttf in Resources */,
+				DCFA976E13D649A1BDF4CDB4 /* Poppins-Regular.ttf in Resources */,
+				32905020D1A34DBA9A36EDB1 /* Poppins-SemiBold.ttf in Resources */,
+				1F1B4EFF85D14241AFA095FA /* Poppins-SemiBoldItalic.ttf in Resources */,
+				60120FF2B12549C3AC92D029 /* Poppins-Thin.ttf in Resources */,
+				5EA3241D5AE8434087A4234B /* Poppins-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,29 +326,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		2D7DF0F6BA08F9CB7E9DCA4D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ContempleiInvestidores-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		71232DD1D2B0A2EB72CE36A3 /* [CP] Copy Pods Resources */ = {
+		70259925E0E490A1ABB043A2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,6 +372,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContempleiInvestidores/Pods-ContempleiInvestidores-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D91FF4BF89BA754FB838BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContempleiInvestidores-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -462,7 +444,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 883F0AF0D550CE49D484ED88 /* Pods-ContempleiInvestidores.debug.xcconfig */;
+			baseConfigurationReference = A7900D5F35E15A57E2479E77 /* Pods-ContempleiInvestidores.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -487,7 +469,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D47ED951B7FD8E3172E3F461 /* Pods-ContempleiInvestidores.release.xcconfig */;
+			baseConfigurationReference = 7BC9585BA8A380A42F0D52DB /* Pods-ContempleiInvestidores.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

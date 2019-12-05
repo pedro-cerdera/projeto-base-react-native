@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-import { iPhoneXSMaxWidth, scale } from "helpers";
+import { iPhoneXSMaxWidth, scale, isSmallDevice } from "helpers";
 
 export default StyleSheet.create({
   onboardingItemContainer: {
@@ -14,7 +14,8 @@ export default StyleSheet.create({
     maxWidth: iPhoneXSMaxWidth,
   },
   image: {
-    marginBottom: 10,
+    marginBottom: isSmallDevice ? 10 : 70,
     height: scale(142),
+    maxHeight: 200,
   },
 });

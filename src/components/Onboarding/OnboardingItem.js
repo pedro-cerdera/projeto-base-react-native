@@ -14,7 +14,12 @@ const OnboardingItem = ({ title, description, image }) => (
         resizeMode={"contain"}
         style={styles.image}
       />
-      <CustomText type={"title"} color={"white"} align={"center"}>
+      <CustomText
+        type={"title"}
+        color={"white"}
+        align={"center"}
+        verticalSpacing
+      >
         {title}
       </CustomText>
       <CustomText
