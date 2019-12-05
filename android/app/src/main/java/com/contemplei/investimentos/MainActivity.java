@@ -1,4 +1,4 @@
-package com.contempleiinvestidores;
+package com.contemplei.investimentos;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;

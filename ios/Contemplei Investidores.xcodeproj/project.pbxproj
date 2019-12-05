@@ -30,7 +30,7 @@
 		E69129BF3F7D4D2BAD9161EA /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3876134B638F42C39B576ADC /* Poppins-LightItalic.ttf */; };
 		EB7EEB0A2CFC4E6F8B5914A6 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC6A50A042948FB81896077 /* Poppins-Italic.ttf */; };
 		F8604E839143F65489C2F020 /* libPods-ContempleiInvestidores.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D11E69324BB9CECBDF9598 /* libPods-ContempleiInvestidores.a */; };
-		FEC44317239827CD00111300 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEC44316239827CD00111300 /* GoogleService-Info.plist */; };
+		FEBBA398239940230004D65B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEBBA397239940230004D65B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		00E356F21AD99517003FC87E /* ContempleiInvestidoresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContempleiInvestidoresTests.m; sourceTree = "<group>"; };
 		02129FE8E44A49A4AF9E67CD /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
 		026E11FA5F9A4704B28F2E7D /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investidores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Contemplei&#x2007;Investidores.app"; path = "Contemplei&#x2007;Investimentos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investimentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contemplei&#x2007;Investimentos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ContempleiInvestidores/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ContempleiInvestidores/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 		EE210055EB7D4DA0933BFBB4 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		F1BB2C4884264DAD83FFC6C4 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		F755863E57134FC9A5FBDE80 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../src/assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FEBBA397239940230004D65B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FEC4430F2397041400111300 /* ContempleiInvestidores-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContempleiInvestidores-Bridging-Header.h"; sourceTree = "<group>"; };
-		FEC44316239827CD00111300 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "ContempleiInvestidores/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FECA83B8A1A94668A5FAEB3E /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +119,7 @@
 		13B07FAE1A68108700A75B9A /* ContempleiInvestidores */ = {
 			isa = PBXGroup;
 			children = (
-				FEC44316239827CD00111300 /* GoogleService-Info.plist */,
+				FEBBA397239940230004D65B /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -168,7 +168,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investidores.app */,
+				13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investimentos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 			);
 			name = ContempleiInvestidores;
 			productName = ContempleiInvestidores;
-			productReference = 13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investidores.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investimentos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC44317239827CD00111300 /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				AEC9CE7C3299461D90D7A8A6 /* Poppins-Black.ttf in Resources */,
@@ -306,6 +305,7 @@
 				1F1B4EFF85D14241AFA095FA /* Poppins-SemiBoldItalic.ttf in Resources */,
 				60120FF2B12549C3AC92D029 /* Poppins-Thin.ttf in Resources */,
 				5EA3241D5AE8434087A4234B /* Poppins-ThinItalic.ttf in Resources */,
+				FEBBA398239940230004D65B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +457,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.contemplei.investimentos;
 				PRODUCT_NAME = "Contemplei&#x2007;Investimentos";
 				SWIFT_OBJC_BRIDGING_HEADER = "ContempleiInvestidores-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -481,7 +481,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.contemplei.investimentos;
 				PRODUCT_NAME = "Contemplei&#x2007;Investimentos";
 				SWIFT_OBJC_BRIDGING_HEADER = "ContempleiInvestidores-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

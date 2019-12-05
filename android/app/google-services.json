@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:603151749156:android:486e351ce69b495dca48b1",
+        "mobilesdk_app_id": "1:603151749156:android:c64b09a6c07798a5ca48b1",
         "android_client_info": {
-          "package_name": "com.contempleiinvestidores"
+          "package_name": "com.contemplei.investimentos"
         }
       },
       "oauth_client": [
@@ -30,6 +30,13 @@
             {
               "client_id": "603151749156-9mf6dd31uoti4bjb6k6vch0gr1bao2lj.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "603151749156-8n3ssqe3civor8bcgsrqu4qe70r73o0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Contemplei--x2007-Investimentos"
+              }
             }
           ]
         }

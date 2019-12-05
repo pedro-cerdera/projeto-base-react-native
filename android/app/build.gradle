@@ -1,4 +1,13 @@
 apply plugin: "com.android.application"
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
+project.ext.envConfigFiles = [
+    integration: ".env.integration",
+    production: ".env.production",
+    anothercustombuild: ".env",
+]
+
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 
 import com.android.build.OutputFile
 
@@ -128,8 +137,21 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    flavorDimensions "default"
+    productFlavors {
+        dev {
+            applicationId "com.contemplei.investimentos"
+        }
+        integration {
+            applicationId "com.contemplei.investimentos"
+        }
+        production {
+            applicationId "com.contemplei.investimentos"
+        }
+    }
+
     defaultConfig {
-        applicationId "com.contempleiinvestidores"
+        applicationId "com.contemplei.investimentos"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
