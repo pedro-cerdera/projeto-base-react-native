@@ -1,4 +1,4 @@
-package com.contempleiinvestidores;
+package com.contemplei.investimentos;
 
 import android.app.Application;
 import android.content.Context;
