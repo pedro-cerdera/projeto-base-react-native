@@ -1,3 +1,5 @@
+import { MaskService } from "react-native-masked-text";
+
 const InputHelpers = {
   validateEmail: email => {
     let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -18,11 +20,7 @@ const InputHelpers = {
     }
   },
   validateCpf: cpf => {
-    if (cpf && cpf.length > 6) {
-      return true;
-    } else {
-      return false;
-    }
+    return MaskService.isValid("cpf", cpf);
   },
   validateCep: cep => {
     if (cep && cep.length >= 4) {
@@ -57,5 +55,7 @@ const InputHelpers = {
 export const validateEmail = email => InputHelpers.validateEmail(email);
 
 export const validatePassword = email => InputHelpers.validatePassword(email);
+
+export const validateCpf = cpf => InputHelpers.validateCpf(cpf);
 
 export default InputHelpers;

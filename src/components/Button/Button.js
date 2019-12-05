@@ -59,8 +59,8 @@ const ButtonSizes = size => {
       return {
         round: { width: 44, height: 44, borderRadius: 44 / 2 },
         square: {
-          minHeight: 44,
-          paddingHorizontal: 20,
+          minHeight: 46,
+          // paddingHorizontal: 20,
           paddingVertical: 10,
           borderRadius: 10,
         },

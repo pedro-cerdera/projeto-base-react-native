@@ -3,10 +3,11 @@ import {
   StackViewTransitionConfigs,
 } from "react-navigation-stack";
 
-import { OnboardingScreen } from "screens";
+import { OnboardingScreen, LoginScreen } from "screens";
 
 const Routes = {
   Onboarding: OnboardingScreen,
+  Login: LoginScreen,
 };
 
 const Config = {

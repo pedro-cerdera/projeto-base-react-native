@@ -42,7 +42,7 @@ const Typography = {
   },
   inputTitle: {
     size: 16,
-    lineHeight: 19,
+    lineHeight: 25,
     weight: "bold",
   },
   smallTitle: {
@@ -62,7 +62,7 @@ const Typography = {
   },
   caption: {
     size: 14,
-    lineHeight: 18,
+    lineHeight: 22,
     weight: "regular",
   },
   button: {
