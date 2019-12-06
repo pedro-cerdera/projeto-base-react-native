@@ -1,67 +1,58 @@
-import React, { useCallback, useState, useRef } from "react";
-import { View, StatusBar, Image, KeyboardAvoidingView } from "react-native";
+import React, { useCallback, useEffect } from "react";
+import { Image, KeyboardAvoidingView, StatusBar, View } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
+import { connect } from "react-redux";
 
-import {
-  Icon,
-  SafeAreaContainer,
-  DefaultSpacingContainer,
-  Input,
-  Button,
-  FormItem,
-} from "components";
-import {
-  getImageSource,
-  scale,
-  validateCpf,
-  validatePassword,
-  isSmallDevice,
-  DEVICE_WIDTH,
-  isTablet,
-} from "helpers";
-import { useForm, useBackHandler, useKeyboard } from "hooks";
+import { Icon, SafeAreaContainer } from "components";
+import { LoginForm } from "forms";
+import { getImageSource, isSmallDevice, isTablet, scale } from "helpers";
+import { useKeyboard } from "hooks";
 import { Header } from "navigators";
-import StyleGuide from "styleguide";
-import Colors from "styleguide/Colors";
-import { CustomText, Link } from "styleguide/Components";
+import { Actions } from "reducers";
+import StyleGuide, { CustomText, Link } from "styleguide";
 
 import styles from "./styles";
 
-const LoginScreen = () => {
-  const [cpfInserted, setCpfInserted] = useState(false);
-  const passwordInput = useRef(null);
+const mapStoreToProps = store => ({
+  isLoading: store.AuthReducer.isLoading,
+  error: store.AuthReducer.error,
+  authData: store.AuthReducer.authData,
+  configs: store.RemoteConfigReducer.configs,
+});
 
+const LoginScreen = ({
+  dispatch,
+  isLoading,
+  authData,
+  error,
+  navigation,
+  configs,
+}) => {
   const { keyboardStatus } = useKeyboard();
 
-  const Form = useForm({
-    initialValues: {
-      cpf: __DEV__ ? "123.456.789-01" : "",
-      password: __DEV__ ? "123456" : "",
-    },
-    onSubmit: values => {
-      alert(values.email, values.password);
-    },
-    validate(values) {
-      const errors = {};
-      if (!validateCpf(values.cpf)) {
-        errors.cpf = "CPF inválido";
-      }
-      if (!validatePassword(values.password)) {
-        errors.password = "Senha inválida";
-      }
-      return errors;
-    },
-  });
+  const onSubmit = useCallback(
+    (cpf, password) => dispatch(Actions.Auth.login(cpf, password)),
+    [dispatch]
+  );
 
-  const onActionPress = useCallback(() => {
-    if (!cpfInserted) {
-      if (!Form.handleBlur("cpf").cpf) {
-        setCpfInserted(true);
-      }
-    } else if (!Form.handleBlur("password").password) {
-      Form.handleSubmit();
+  useEffect(() => {
+    if (!isLoading && authData) {
+      navigation.navigate("AuthLoading");
     }
-  }, [Form, cpfInserted]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isLoading]);
+
+  const displayImage = {
+    display:
+      (keyboardStatus === "opened" && isSmallDevice) || isSmallDevice
+        ? "none"
+        : "flex",
+  };
+
+  const displayContent = {
+    display: keyboardStatus === "opened" && !isTablet ? "none" : "flex",
+  };
+
   return (
     <>
       <StatusBar
@@ -70,125 +61,36 @@ const LoginScreen = () => {
         translucent={false}
       />
       <LinearGradient
-        colors={Colors.gradient.primary}
+        colors={StyleGuide.colors.gradient.primary}
         locations={[0, 1]}
-        style={styles.homeContainer}
+        style={styles.loginContainer}
       >
-        <SafeAreaContainer
-          style={{
-            backgroundColor: isTablet ? "transparent" : "white",
-            justifyContent: "center",
-            alignItems: "center",
-            width: "100%",
-          }}
-        >
+        <SafeAreaContainer style={styles.safeAreaContainer}>
           <KeyboardAvoidingView
-            // style={{ width: "100%" }}
-            style={{
-              width: DEVICE_WIDTH,
-              flex: 1,
-              justifyContent: "center",
-              alignItems: "center",
-            }}
+            style={styles.keyboardAvoidViewContainer}
             behavior={"padding"}
             keyboardVerticalOffset={30}
           >
-            <View
-              style={{
-                flex: isTablet ? 0 : 1,
-                backgroundColor: "white",
-                width: isTablet ? 454 : "100%",
-                borderRadius: isTablet ? 10 : 0,
-                paddingHorizontal: isTablet ? 60 : 40,
-                paddingTop: isTablet ? 40 : 20,
-                // flexShrink: 0,
-              }}
-            >
+            <View style={styles.loginContent}>
               <Image
-                source={getImageSource("logo-text")}
+                source={getImageSource(
+                  configs.login && configs.login.IMAGE.key
+                )}
                 resizeMode={"contain"}
-                style={{
-                  height: scale(45),
-                  maxHeight: 45,
-                  alignSelf: "center",
-                  display:
-                    (keyboardStatus === "opened" && isSmallDevice) ||
-                      isSmallDevice
-                      ? "none"
-                      : "flex",
-                  marginBottom: 70,
-                }}
+                style={[styles.logoImage, displayImage]}
               />
-              <View
-                style={{
-                  marginHorizontal: isTablet ? 30 : 0,
-                  marginBottom: isSmallDevice || isTablet ? 20 : 40,
-                  display:
-                    keyboardStatus === "opened" && !isTablet ? "none" : "flex",
-                }}
-              >
+              <View style={[styles.loginText, displayContent]}>
                 <CustomText align={"center"} type={"caption"}>
-                  Log in to save to your favorites so we can better personalize
-                  your recommendations
+                  {configs.login && configs.login.DESCRIPTION}
                 </CustomText>
               </View>
-
-              <FormItem
-                visible={cpfInserted}
-                value={Form.values.cpf}
-                containerStyle={{
-                  marginBottom: isSmallDevice || isTablet ? 20 : 40,
-                  alignSelf: "center",
-                }}
-                onPress={() => setCpfInserted(false)}
+              <LoginForm
+                onSubmit={onSubmit}
+                isLoading={isLoading}
+                error={error}
+                navigation={navigation}
               />
-              <Input
-                masked
-                onChangeText={text => Form.handleChange(text, "cpf")}
-                value={Form.values.cpf}
-                error={Form.errors.cpf}
-                type={"cpf"}
-                keyboardType={"decimal-pad"}
-                title={"CPF"}
-                autoCorrect={false}
-                placeholder={"123.456.789-05"}
-                onSubmitEditing={onActionPress}
-                returnKeyType={"done"}
-                visible={!cpfInserted}
-              />
-              <Input
-                onChangeText={text => Form.handleChange(text, "password")}
-                refProp={input => (passwordInput.current = input)}
-                value={Form.values.password}
-                error={Form.errors.password}
-                keyboardType={"default"}
-                title={"Senha"}
-                autoCorrect={false}
-                placeholder={"******"}
-                secureTextEntry
-                autoCompleteType={"password"}
-                returnKeyType={"go"}
-                onSubmitEditing={onActionPress}
-                visible={cpfInserted}
-              />
-              <Button
-                containerStyle={{ marginTop: 10, marginBottom: 14 }}
-                color={"primary"}
-                size={"small"}
-                onPress={onActionPress}
-              >
-                Avançar
-              </Button>
-
-              <View
-                style={{
-                  alignItems: "center",
-                  display:
-                    keyboardStatus === "opened" && !isTablet
-                      ? "none"
-                      : "flex",
-                }}
-              >
+              <View style={[styles.bottomOptions, displayContent]}>
                 <Link underline verticalSpacing>
                   Esqueci minha senha
                 </Link>
@@ -207,14 +109,17 @@ const LoginScreen = () => {
 LoginScreen.navigationOptions = ({ navigation }) => ({
   ...Header,
   header: isTablet ? null : undefined,
-  headerLeft: (
+  gesturesEnabled: false,
+  headerLeft: navigation.getParam("backHandler", false) ? (
     <Icon
-      onPress={() => navigation.goBack()}
+      onPress={navigation.getParam("backHandler")}
       name={"fa5-arrow-left"}
       size={24}
       solid
       color={StyleGuide.colors.primary}
     />
+  ) : (
+    <View />
   ),
   headerRight: (
     <Image
@@ -228,4 +133,4 @@ LoginScreen.navigationOptions = ({ navigation }) => ({
   ),
 });
 
-export default LoginScreen;
+export default connect(mapStoreToProps)(LoginScreen);

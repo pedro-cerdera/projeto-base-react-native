@@ -1,19 +1,19 @@
 import requestUtils from "utils/request";
 
 export default {
-  login(email, password) {
+  login(cpf, password) {
     return requestUtils({
-      url: "/users/login",
+      url: "/user/login",
       method: "POST",
       data: {
-        email,
-        senha: password,
+        cpf,
+        password,
       },
     });
   },
   loadStart(token) {
     return requestUtils({
-      url: "/users/load",
+      url: "/user/load",
       method: "GET",
       token,
     });

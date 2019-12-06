@@ -1,8 +1,9 @@
 import { Alert } from "react-native";
+import Config from "react-native-config";
 
 import _axios from "axios";
 
-const apiUrl = "https://contemplei-api-integration.herokuapp.com/api";
+const apiUrl = Config.API_URL;
 
 const axios = _axios.create({
   baseURL: apiUrl,
