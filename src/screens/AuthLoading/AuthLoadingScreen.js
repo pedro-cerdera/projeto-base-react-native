@@ -16,7 +16,7 @@ const AuthLoadingScreen = ({ navigation, dispatch, isLoaded }) => {
   const screen = useRef("Unauthorized");
   useEffect(() => {
     const decideRoute = async () => {
-      // await UserStorage.setToken(null);
+      await UserStorage.setToken(null);
       const token = await UserStorage.getToken();
       if (token) {
         screen.current = "Authorized";

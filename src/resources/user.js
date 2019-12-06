@@ -9,6 +9,7 @@ export default {
         cpf,
         password,
       },
+      onRequestFail: () => {},
     });
   },
   loadStart(token) {

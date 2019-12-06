@@ -1,3 +1,4 @@
+import { DropDownHolder } from "contemplei-investidores/App";
 import Resources from "resources";
 import { UserStorage } from "storage";
 
@@ -18,13 +19,19 @@ const Types = {
 
 export const Actions = {
   saveAuth: auth => ({ type: Types.AUTH_SAVE, payload: auth }),
-  login: (cpf, password) => async dispatch => {
+  login: (cpf, password) => async (dispatch, getState) => {
     dispatch({ type: Types.AUTH_RESET });
     dispatch({ type: Types.AUTH_SET_LOADING, payload: true });
     const { data } = await Resources.User.login(cpf, password);
 
     if (!data.success) {
       dispatch({ type: Types.AUTH_SET_ERROR, payload: data });
+      const errorsMessage = getState().RemoteConfigReducer.configs.login.errors;
+      DropDownHolder.dropDown.alertWithType(
+        "error",
+        "Error",
+        errorsMessage[data.status] || errorsMessage.default
+      );
     } else {
       dispatch(Actions.saveAuth(data));
       dispatch(RemoteConfigActions.reset());
@@ -35,8 +42,8 @@ export const Actions = {
 
     dispatch({ type: Types.AUTH_SET_LOADING, payload: false });
   },
-  loadStart: () => async (dispatch, getState) => {},
-  logout: () => async (dispatch, getState) => {},
+  loadStart: () => async (dispatch, getState) => { },
+  logout: () => async (dispatch, getState) => { },
   reset: () => ({ type: Types.AUTH_RESET }),
 };
 
