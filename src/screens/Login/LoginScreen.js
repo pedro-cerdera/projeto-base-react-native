@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect } from "react";
-import { Image, KeyboardAvoidingView, StatusBar, View } from "react-native";
+import { Image, KeyboardAvoidingView, StatusBar, View, Platform } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import { connect } from "react-redux";
 
@@ -57,8 +57,8 @@ const LoginScreen = ({
     <>
       <StatusBar
         barStyle={"dark-content"}
-        backgroundColor={"white"}
-        translucent={false}
+        backgroundColor={isTablet ? "transparent" : "white"}
+        translucent={isTablet}
       />
       <LinearGradient
         colors={StyleGuide.colors.gradient.primary}
@@ -69,6 +69,7 @@ const LoginScreen = ({
           <KeyboardAvoidingView
             style={styles.keyboardAvoidViewContainer}
             behavior={"padding"}
+            enabled={Platform.OS !== "android"}
             keyboardVerticalOffset={30}
           >
             <View style={styles.loginContent}>
@@ -119,8 +120,8 @@ LoginScreen.navigationOptions = ({ navigation }) => ({
       color={StyleGuide.colors.primary}
     />
   ) : (
-    <View />
-  ),
+      <View />
+    ),
   headerRight: (
     <Image
       source={getImageSource("logo-text")}

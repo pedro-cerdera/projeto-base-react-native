@@ -1,4 +1,4 @@
-import { Platform, StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
 import { TextInputMask } from "react-native-masked-text";
 
 import styled from "styled-components/native";
@@ -7,6 +7,7 @@ import StyleGuide from "styleguide";
 export const TextInput = styled.TextInput`
   background-color: white;
   font-size: 14px;
+  line-height: 20px;
   border: 1px solid ${props =>
     props.error ? StyleGuide.colors.red : StyleGuide.colors.lightGrey};
   border-radius: 5px;
@@ -22,6 +23,7 @@ export const TextInput = styled.TextInput`
 export const MaskedTextInput = styled(TextInputMask)`
   background-color: white;
   font-size: 14px;
+  line-height: 20px;
   border: 1px solid ${props =>
     props.error ? StyleGuide.colors.red : StyleGuide.colors.lightGrey};
   border-radius: 5px;

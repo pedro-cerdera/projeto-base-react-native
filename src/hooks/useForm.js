@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Keyboard } from "react-native";
 
 const useForm = ({ initialValues, onSubmit, validate }) => {
   const [values, setValues] = useState(initialValues || {});
@@ -39,7 +40,7 @@ const useForm = ({ initialValues, onSubmit, validate }) => {
   const handleSubmit = (text, target) => {
     const e = validate(values);
     setErrors(e);
-
+    Keyboard.dismiss();
     onSubmit(values, e);
   };
 
