@@ -62,7 +62,7 @@ const ButtonSizes = size => {
           minHeight: 46,
           // paddingHorizontal: 20,
           paddingVertical: 10,
-          borderRadius: 10,
+          borderRadius: 5,
         },
         normal: { minHeight: 34, borderRadius: 34 / 2 },
       };
@@ -72,7 +72,7 @@ const ButtonSizes = size => {
         round: { width: 64, height: 64, borderRadius: 64 / 2 },
         square: {
           minHeight: 64,
-          borderRadius: 10,
+          borderRadius: 5,
         },
         normal: { minHeight: 54, borderRadius: 54 / 2 },
       };
@@ -82,7 +82,7 @@ const ButtonSizes = size => {
         round: { width: 54, height: 54, borderRadius: 54 / 2 },
         square: {
           minHeight: 54,
-          borderRadius: 10,
+          borderRadius: 5,
         },
         normal: { minHeight: 44, borderRadius: 44 / 2 },
       };
@@ -190,7 +190,7 @@ Button.defaultProps = {
   color: "primary",
   shape: "square",
   size: "normal",
-  onPress: () => {},
+  onPress: () => { },
   containerStyle: {},
 };
 

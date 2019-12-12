@@ -12,6 +12,16 @@ export default {
       onRequestFail: () => {},
     });
   },
+  recover(cpf) {
+    return requestUtils({
+      url: "/user/recover",
+      method: "POST",
+      data: {
+        cpf,
+      },
+      onRequestFail: () => {},
+    });
+  },
   loadStart(token) {
     return requestUtils({
       url: "/user/load",

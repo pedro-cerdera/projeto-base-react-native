@@ -1,15 +1,14 @@
 import React, { useCallback, useEffect } from "react";
-import { Image, KeyboardAvoidingView, StatusBar, View, Platform } from "react-native";
-import LinearGradient from "react-native-linear-gradient";
+import { Image, StatusBar, View, TouchableOpacity } from "react-native";
 import { connect } from "react-redux";
 
-import { Icon, SafeAreaContainer } from "components";
+import { Icon, UnauthorizedFormContainer } from "components";
 import { LoginForm } from "forms";
 import { getImageSource, isSmallDevice, isTablet, scale } from "helpers";
 import { useKeyboard } from "hooks";
 import { Header } from "navigators";
 import { Actions } from "reducers";
-import StyleGuide, { CustomText, Link } from "styleguide";
+import StyleGuide, { Link } from "styleguide";
 
 import styles from "./styles";
 
@@ -28,30 +27,23 @@ const LoginScreen = ({
   navigation,
   configs,
 }) => {
-  const { keyboardStatus } = useKeyboard();
-
   const onSubmit = useCallback(
     (cpf, password) => dispatch(Actions.Auth.login(cpf, password)),
     [dispatch]
   );
 
-  useEffect(() => {
-    if (!isLoading && authData) {
-      navigation.navigate("AuthLoading");
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isLoading]);
-
-  const displayImage = {
-    display:
-      (keyboardStatus === "opened" && isSmallDevice) || isSmallDevice
-        ? "none"
-        : "flex",
-  };
+  const { keyboardStatus } = useKeyboard();
 
   const displayContent = {
     display: keyboardStatus === "opened" && !isTablet ? "none" : "flex",
   };
+
+  useEffect(() => {
+    if (!isLoading && authData && authData.token) {
+      navigation.navigate("AuthLoading");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isLoading]);
 
   return (
     <>
@@ -60,49 +52,27 @@ const LoginScreen = ({
         backgroundColor={isTablet ? "transparent" : "white"}
         translucent={isTablet}
       />
-      <LinearGradient
-        colors={StyleGuide.colors.gradient.primary}
-        locations={[0, 1]}
-        style={styles.loginContainer}
+      <UnauthorizedFormContainer
+        source={configs.login && configs.login.IMAGE.key}
+        description={configs.login && configs.login.DESCRIPTION}
       >
-        <SafeAreaContainer style={styles.safeAreaContainer}>
-          <KeyboardAvoidingView
-            style={styles.keyboardAvoidViewContainer}
-            behavior={"padding"}
-            enabled={Platform.OS !== "android"}
-            keyboardVerticalOffset={30}
-          >
-            <View style={styles.loginContent}>
-              <Image
-                source={getImageSource(
-                  configs.login && configs.login.IMAGE.key
-                )}
-                resizeMode={"contain"}
-                style={[styles.logoImage, displayImage]}
-              />
-              <View style={[styles.loginText, displayContent]}>
-                <CustomText align={"center"} type={"caption"}>
-                  {configs.login && configs.login.DESCRIPTION}
-                </CustomText>
-              </View>
-              <LoginForm
-                onSubmit={onSubmit}
-                isLoading={isLoading}
-                error={error}
-                navigation={navigation}
-              />
-              <View style={[styles.bottomOptions, displayContent]}>
-                <Link underline verticalSpacing>
-                  Esqueci minha senha
-                </Link>
-                <Link underline topSpacing>
-                  Ainda não tenho conta
-                </Link>
-              </View>
-            </View>
-          </KeyboardAvoidingView>
-        </SafeAreaContainer>
-      </LinearGradient>
+        <LoginForm
+          onSubmit={onSubmit}
+          isLoading={isLoading}
+          error={error}
+          navigation={navigation}
+        />
+        <View style={[styles.bottomOptions, displayContent]}>
+          <TouchableOpacity onPress={() => navigation.navigate("Recover")}>
+            <Link underline verticalSpacing>
+              Esqueci minha senha
+            </Link>
+          </TouchableOpacity>
+          <Link underline topSpacing>
+            Ainda não tenho conta
+          </Link>
+        </View>
+      </UnauthorizedFormContainer>
     </>
   );
 };
@@ -111,6 +81,7 @@ LoginScreen.navigationOptions = ({ navigation }) => ({
   ...Header,
   header: isTablet ? null : undefined,
   gesturesEnabled: false,
+  headerTransparent: isTablet,
   headerLeft: navigation.getParam("backHandler", false) ? (
     <Icon
       onPress={navigation.getParam("backHandler")}
