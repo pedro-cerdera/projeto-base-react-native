@@ -9,14 +9,11 @@
 /* Begin PBXBuildFile section */
 		0DEF3F29F08F4EE683368BAE /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B102B2D663CB4CB2B05EB709 /* Poppins-BlackItalic.ttf */; };
 		12E4950406E74411B689F2FD /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1BB2C4884264DAD83FFC6C4 /* Poppins-Bold.ttf */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1C9D66D0370D4773BDE2FBD9 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F755863E57134FC9A5FBDE80 /* Poppins-BoldItalic.ttf */; };
 		1F1B4EFF85D14241AFA095FA /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F04349FE0A14438A872DB07 /* Poppins-SemiBoldItalic.ttf */; };
 		32905020D1A34DBA9A36EDB1 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21E7369D8DE148939E464A16 /* Poppins-SemiBold.ttf */; };
 		3DAFEE2C04A44D738E2EB799 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F62D118BAC64E68A09EBC03 /* Poppins-ExtraLightItalic.ttf */; };
+		4AAE1E9069E96F4328CCD99A /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6287067B63FA363660E17A34 /* libPods-BaseProject.a */; };
 		5EA3241D5AE8434087A4234B /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9370E0EE748ABAF13F71D /* Poppins-ThinItalic.ttf */; };
 		60120FF2B12549C3AC92D029 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8972E2805414CA5BB05E002 /* Poppins-Thin.ttf */; };
 		63E1142B85AC4C4E8DCDECC5 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9827BABD9B2241D7B4CEF5E0 /* Poppins-ExtraBoldItalic.ttf */; };
@@ -29,29 +26,28 @@
 		DCFA976E13D649A1BDF4CDB4 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80C846B985734468856F8BA4 /* Poppins-Regular.ttf */; };
 		E69129BF3F7D4D2BAD9161EA /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3876134B638F42C39B576ADC /* Poppins-LightItalic.ttf */; };
 		EB7EEB0A2CFC4E6F8B5914A6 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC6A50A042948FB81896077 /* Poppins-Italic.ttf */; };
-		F8604E839143F65489C2F020 /* libPods-ContempleiInvestidores.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D11E69324BB9CECBDF9598 /* libPods-ContempleiInvestidores.a */; };
+		FEA5B08923D0974400EA1BC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA5B08623D0974400EA1BC6 /* AppDelegate.m */; };
+		FEA5B08A23D0974400EA1BC6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEA5B08723D0974400EA1BC6 /* Info.plist */; };
+		FEA5B08B23D0974400EA1BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA5B08823D0974400EA1BC6 /* main.m */; };
+		FEA5B08D23D0979600EA1BC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA5B08C23D0979600EA1BC6 /* Images.xcassets */; };
+		FEA5B09023D097A600EA1BC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA5B08E23D097A600EA1BC6 /* LaunchScreen.xib */; };
 		FEBBA398239940230004D65B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEBBA397239940230004D65B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ContempleiInvestidoresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContempleiInvestidoresTests.m; sourceTree = "<group>"; };
 		02129FE8E44A49A4AF9E67CD /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
 		026E11FA5F9A4704B28F2E7D /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investimentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contemplei&#x2007;Investimentos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ContempleiInvestidores/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ContempleiInvestidores/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ContempleiInvestidores/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ContempleiInvestidores/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ContempleiInvestidores/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD9AC679DA54CD4BD61B08C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../src/assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		21E7369D8DE148939E464A16 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		3876134B638F42C39B576ADC /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../src/assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
 		54527716383745C4BCF283A1 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		5823BF6398E83D5C8695E923 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		58619EEBA1E1F38AEDAFF196 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		58B8504105254CA996099717 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		5F04349FE0A14438A872DB07 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6287067B63FA363660E17A34 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AB57A6A23A4AC2B333C963 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		7BC9585BA8A380A42F0D52DB /* Pods-ContempleiInvestidores.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores.release.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores/Pods-ContempleiInvestidores.release.xcconfig"; sourceTree = "<group>"; };
 		80C846B985734468856F8BA4 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -63,7 +59,6 @@
 		9AC6A50A042948FB81896077 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../src/assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		9C48CBBF871C4D89991A0F86 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		9F62D118BAC64E68A09EBC03 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		A0D11E69324BB9CECBDF9598 /* libPods-ContempleiInvestidores.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContempleiInvestidores.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7900D5F35E15A57E2479E77 /* Pods-ContempleiInvestidores.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContempleiInvestidores.debug.xcconfig"; path = "Target Support Files/Pods-ContempleiInvestidores/Pods-ContempleiInvestidores.debug.xcconfig"; sourceTree = "<group>"; };
 		B102B2D663CB4CB2B05EB709 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../src/assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
 		B235A0F0DA1445A6B34E5BB8 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
@@ -82,8 +77,14 @@
 		EE210055EB7D4DA0933BFBB4 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		F1BB2C4884264DAD83FFC6C4 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		F755863E57134FC9A5FBDE80 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../src/assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FEA5B08423D0965000EA1BC6 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		FEA5B08523D0974400EA1BC6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BaseProject/AppDelegate.h; sourceTree = "<group>"; };
+		FEA5B08623D0974400EA1BC6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BaseProject/AppDelegate.m; sourceTree = "<group>"; };
+		FEA5B08723D0974400EA1BC6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BaseProject/Info.plist; sourceTree = "<group>"; };
+		FEA5B08823D0974400EA1BC6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BaseProject/main.m; sourceTree = "<group>"; };
+		FEA5B08C23D0979600EA1BC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BaseProject/Images.xcassets; sourceTree = "<group>"; };
+		FEA5B08F23D097A600EA1BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = BaseProject/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FEBBA397239940230004D65B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FEC4430F2397041400111300 /* ContempleiInvestidores-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContempleiInvestidores-Bridging-Header.h"; sourceTree = "<group>"; };
 		FECA83B8A1A94668A5FAEB3E /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,44 +93,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8604E839143F65489C2F020 /* libPods-ContempleiInvestidores.a in Frameworks */,
+				4AAE1E9069E96F4328CCD99A /* libPods-BaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ContempleiInvestidoresTests */ = {
+		13B07FAE1A68108700A75B9A /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ContempleiInvestidoresTests.m */,
-				00E356F01AD99517003FC87E /* Supporting Files */,
-			);
-			path = ContempleiInvestidoresTests;
-			sourceTree = "<group>";
-		};
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		13B07FAE1A68108700A75B9A /* ContempleiInvestidores */ = {
-			isa = PBXGroup;
-			children = (
+				FEA5B08E23D097A600EA1BC6 /* LaunchScreen.xib */,
+				FEA5B08C23D0979600EA1BC6 /* Images.xcassets */,
+				FEA5B08523D0974400EA1BC6 /* AppDelegate.h */,
+				FEA5B08623D0974400EA1BC6 /* AppDelegate.m */,
+				FEA5B08723D0974400EA1BC6 /* Info.plist */,
+				FEA5B08823D0974400EA1BC6 /* main.m */,
 				FEBBA397239940230004D65B /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
-				13B07FB71A68108700A75B9A /* main.m */,
-				FEC4430F2397041400111300 /* ContempleiInvestidores-Bridging-Header.h */,
+				FEA5B08423D0965000EA1BC6 /* Bridging-Header.h */,
 			);
-			name = ContempleiInvestidores;
+			name = BaseProject;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -137,7 +121,7 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				A0D11E69324BB9CECBDF9598 /* libPods-ContempleiInvestidores.a */,
+				6287067B63FA363660E17A34 /* libPods-BaseProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,9 +136,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ContempleiInvestidores */,
+				13B07FAE1A68108700A75B9A /* BaseProject */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ContempleiInvestidoresTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				CA6976FCAB097E866A61E574 /* Pods */,
@@ -168,7 +151,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investimentos.app */,
+				13B07F961A680F5B00A75B9A /* BaseProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,6 +161,8 @@
 			children = (
 				A7900D5F35E15A57E2479E77 /* Pods-ContempleiInvestidores.debug.xcconfig */,
 				7BC9585BA8A380A42F0D52DB /* Pods-ContempleiInvestidores.release.xcconfig */,
+				5823BF6398E83D5C8695E923 /* Pods-BaseProject.debug.xcconfig */,
+				58619EEBA1E1F38AEDAFF196 /* Pods-BaseProject.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -226,9 +211,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* ContempleiInvestidores */ = {
+		13B07F861A680F5B00A75B9A /* BaseProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ContempleiInvestidores" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BaseProject" */;
 			buildPhases = (
 				79D91FF4BF89BA754FB838BC /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -242,9 +227,9 @@
 			);
 			dependencies = (
 			);
-			name = ContempleiInvestidores;
+			name = BaseProject;
 			productName = ContempleiInvestidores;
-			productReference = 13B07F961A680F5B00A75B9A /* Contemplei&#x2007;Investimentos.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* BaseProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -261,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Contemplei Investidores" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BaseProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -274,7 +259,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ContempleiInvestidores */,
+				13B07F861A680F5B00A75B9A /* BaseProject */,
 			);
 		};
 /* End PBXProject section */
@@ -284,14 +269,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				FEA5B09023D097A600EA1BC6 /* LaunchScreen.xib in Resources */,
+				FEA5B08D23D0979600EA1BC6 /* Images.xcassets in Resources */,
 				AEC9CE7C3299461D90D7A8A6 /* Poppins-Black.ttf in Resources */,
 				0DEF3F29F08F4EE683368BAE /* Poppins-BlackItalic.ttf in Resources */,
 				12E4950406E74411B689F2FD /* Poppins-Bold.ttf in Resources */,
 				1C9D66D0370D4773BDE2FBD9 /* Poppins-BoldItalic.ttf in Resources */,
 				6E7EA3B84AF745E68A1616A4 /* Poppins-ExtraBold.ttf in Resources */,
 				63E1142B85AC4C4E8DCDECC5 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				FEA5B08A23D0974400EA1BC6 /* Info.plist in Resources */,
 				7F0FA106E17B4C0E92B4E386 /* Poppins-ExtraLight.ttf in Resources */,
 				3DAFEE2C04A44D738E2EB799 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				EB7EEB0A2CFC4E6F8B5914A6 /* Poppins-Italic.ttf in Resources */,
@@ -331,7 +317,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ContempleiInvestidores/Pods-ContempleiInvestidores-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -370,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContempleiInvestidores/Pods-ContempleiInvestidores-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		79D91FF4BF89BA754FB838BC /* [CP] Check Pods Manifest.lock */ = {
@@ -388,7 +374,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ContempleiInvestidores-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BaseProject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -421,21 +407,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				FEA5B08B23D0974400EA1BC6 /* main.m in Sources */,
+				FEA5B08923D0974400EA1BC6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+		FEA5B08E23D097A600EA1BC6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13B07FB21A68108700A75B9A /* Base */,
+				FEA5B08F23D097A600EA1BC6 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ContempleiInvestidores;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -443,22 +428,22 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7900D5F35E15A57E2479E77 /* Pods-ContempleiInvestidores.debug.xcconfig */;
+			baseConfigurationReference = 5823BF6398E83D5C8695E923 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = ContempleiInvestidores/Info.plist;
+				INFOPLIST_FILE = BaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.contemplei.investimentos;
-				PRODUCT_NAME = "Contemplei&#x2007;Investimentos";
-				SWIFT_OBJC_BRIDGING_HEADER = "ContempleiInvestidores-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grafeno.baseproject;
+				PRODUCT_NAME = BaseProject;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,21 +453,21 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BC9585BA8A380A42F0D52DB /* Pods-ContempleiInvestidores.release.xcconfig */;
+			baseConfigurationReference = 58619EEBA1E1F38AEDAFF196 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ContempleiInvestidores/Info.plist;
+				INFOPLIST_FILE = BaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.contemplei.investimentos;
-				PRODUCT_NAME = "Contemplei&#x2007;Investimentos";
-				SWIFT_OBJC_BRIDGING_HEADER = "ContempleiInvestidores-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grafeno.baseproject;
+				PRODUCT_NAME = BaseProject;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -591,7 +576,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ContempleiInvestidores" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BaseProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -600,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Contemplei Investidores" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BaseProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
