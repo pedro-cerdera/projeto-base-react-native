@@ -1,5 +1,5 @@
 {
-  "name": "projeto-base-react-native",
+  "name": "BaseProject",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,7 +8,6 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "open:ios": "cd ios || true && open Contemplei\\ Investidores.xcworkspace && cd ..",
     "pod" : "cd ios || true && pod install || true && cd .."
   },
   "dependencies": {
