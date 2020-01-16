@@ -140,18 +140,18 @@ android {
     flavorDimensions "default"
     productFlavors {
         dev {
-            applicationId "com.contemplei.investimentos"
+            applicationId "com.grafeno.baseproject"
         }
         integration {
-            applicationId "com.contemplei.investimentos"
+            applicationId "com.grafeno.baseproject"
         }
         production {
-            applicationId "com.contemplei.investimentos"
+            applicationId "com.grafeno.baseproject"
         }
     }
 
     defaultConfig {
-        applicationId "com.contemplei.investimentos"
+        applicationId "com.grafeno.baseproject"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

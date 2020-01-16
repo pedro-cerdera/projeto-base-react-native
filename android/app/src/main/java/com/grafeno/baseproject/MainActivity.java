@@ -1,4 +1,4 @@
-package com.contemplei.investimentos;
+package com.grafeno.baseproject;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "ContempleiInvestidores";
+    return "BaseProject";
   }
 
     protected void onCreate(Bundle savedInstanceState) {
