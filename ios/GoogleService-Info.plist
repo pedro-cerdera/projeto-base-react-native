@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>718270369101-i5ai24mt6b35pcuscqsllu7idc686k0p.apps.googleusercontent.com</string>
+	<string>1097312334920-u1ggrcf9criv5g06htjjrprahmum2k1e.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.718270369101-i5ai24mt6b35pcuscqsllu7idc686k0p</string>
+	<string>com.googleusercontent.apps.1097312334920-u1ggrcf9criv5g06htjjrprahmum2k1e</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBsvNsFlzU47tKRvL3D0gcr7-VKI1R_1f8</string>
+	<string>AIzaSyDYAQRM59oYOcbZ80Uwb4i34n8jKvHtj0M</string>
 	<key>GCM_SENDER_ID</key>
-	<string>718270369101</string>
+	<string>1097312334920</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.contemplei.investimentos</string>
+	<string>com.grafeno.baseproject</string>
 	<key>PROJECT_ID</key>
-	<string>contemplei-investimentos</string>
+	<string>baseproject-26553</string>
 	<key>STORAGE_BUCKET</key>
-	<string>contemplei-investimentos.appspot.com</string>
+	<string>baseproject-26553.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:718270369101:ios:7de0470b167bcdb9bdfb04</string>
+	<string>1:1097312334920:ios:281e233149da67527d947d</string>
 	<key>DATABASE_URL</key>
-	<string>https://contemplei-investimentos.firebaseio.com</string>
+	<string>https://baseproject-26553.firebaseio.com</string>
 </dict>
 </plist>

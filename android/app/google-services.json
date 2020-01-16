@@ -1,42 +1,35 @@
 {
   "project_info": {
-    "project_number": "718270369101",
-    "firebase_url": "https://contemplei-investimentos.firebaseio.com",
-    "project_id": "contemplei-investimentos",
-    "storage_bucket": "contemplei-investimentos.appspot.com"
+    "project_number": "1097312334920",
+    "firebase_url": "https://baseproject-26553.firebaseio.com",
+    "project_id": "baseproject-26553",
+    "storage_bucket": "baseproject-26553.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:718270369101:android:08b79c77fe02cecabdfb04",
+        "mobilesdk_app_id": "1:1097312334920:android:f427705e1fa1d88c7d947d",
         "android_client_info": {
-          "package_name": "com.contemplei.investimentos"
+          "package_name": "com.grafeno.baseproject"
         }
       },
       "oauth_client": [
         {
-          "client_id": "718270369101-bc84cvj9urplmopcqt76dvdsoabpmhia.apps.googleusercontent.com",
+          "client_id": "1097312334920-8hh4kpmn4qpierlk6si573b2uqbc6iia.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD_IpsuxgJ8s58--k8PffruF8FFOa3yAjA"
+          "current_key": "AIzaSyAvaNs45pWgs-_xrIlFiEpCLIYWAvtFhpM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "718270369101-bc84cvj9urplmopcqt76dvdsoabpmhia.apps.googleusercontent.com",
+              "client_id": "1097312334920-8hh4kpmn4qpierlk6si573b2uqbc6iia.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "718270369101-i5ai24mt6b35pcuscqsllu7idc686k0p.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.contemplei.investimentos"
-              }
             }
           ]
         }
