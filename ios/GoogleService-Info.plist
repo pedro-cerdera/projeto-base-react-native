@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>603151749156-ijp3mcjja68b8rp9liefkif08odqpmqs.apps.googleusercontent.com</string>
+	<string>718270369101-i5ai24mt6b35pcuscqsllu7idc686k0p.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.603151749156-ijp3mcjja68b8rp9liefkif08odqpmqs</string>
+	<string>com.googleusercontent.apps.718270369101-i5ai24mt6b35pcuscqsllu7idc686k0p</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCa93J7vG7NCp1hCc0EdIzlgr4PO_dm-5w</string>
+	<string>AIzaSyBsvNsFlzU47tKRvL3D0gcr7-VKI1R_1f8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>603151749156</string>
+	<string>718270369101</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.contemplei.investimentos</string>
 	<key>PROJECT_ID</key>
-	<string>contemplei-test</string>
+	<string>contemplei-investimentos</string>
 	<key>STORAGE_BUCKET</key>
-	<string>contemplei-test.appspot.com</string>
+	<string>contemplei-investimentos.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:603151749156:ios:1a6e5b3e1f9f8013ca48b1</string>
+	<string>1:718270369101:ios:7de0470b167bcdb9bdfb04</string>
 	<key>DATABASE_URL</key>
-	<string>https://contemplei-test.firebaseio.com</string>
+	<string>https://contemplei-investimentos.firebaseio.com</string>
 </dict>
 </plist>

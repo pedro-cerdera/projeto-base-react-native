@@ -21,10 +21,9 @@ const mapStoreToProps = store => ({
   configs: store.RemoteConfigReducer.configs,
 });
 
-const OnboardingScreen = ({ configs }) => {
+const OnboardingScreen = ({ configs, navigation }) => {
   const [activeSlider, setActiveSlider] = useState(0);
   const carouselRef = useRef(null);
-  console.tron.log("a", configs);
 
   return (
     <>
@@ -75,6 +74,7 @@ const OnboardingScreen = ({ configs }) => {
                 containerStyle={styles.button}
                 theme={"outline"}
                 color={"white"}
+                onPress={() => navigation.navigate("Login")}
               >
                 {configs.onboarding && configs.onboarding.CTA}
               </Button>

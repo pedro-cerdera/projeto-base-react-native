@@ -17,11 +17,14 @@ const TextHelpers = {
       /\w\S*/g,
       txt => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
     ),
+  unmaskCpf: cpf => MaskService.toRawValue("cpf", cpf),
 };
 
 export const maskMoney = TextHelpers.maskMoney;
 
 export const unmaskMoney = TextHelpers.unmaskMoney;
+
+export const unmaskCpf = TextHelpers.unmaskCpf;
 
 export const capitalizeFirstLetter = TextHelpers.capitalizeFirstLetter;
 

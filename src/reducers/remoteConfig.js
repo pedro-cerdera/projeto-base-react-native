@@ -22,10 +22,10 @@ export const Actions = {
       if (__DEV__) {
         firebase.config().enableDeveloperMode();
       }
-      await firebase.config().fetch();
+      await firebase.config().fetch(1);
       await firebase.config().activateFetched();
       const data = await firebase.config().getValue(key);
-      console.tron.log(data)
+      // console.tron.log(data)
       dispatch({
         type: Types.REMOTE_CONFIG_SAVE,
         payload: JSON.parse(data.val()),

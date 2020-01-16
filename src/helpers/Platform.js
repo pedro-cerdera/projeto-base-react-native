@@ -30,11 +30,14 @@ const PlatformHelpers = {
     );
   },
   isSmallDevice: () => Dimensions.get("screen").height <= 640,
+  isTablet: () => Dimensions.get("window").width >= 768,
 };
 
 export const isIphoneX = PlatformHelpers.isIphoneX();
 
 export const isSmallDevice = PlatformHelpers.isSmallDevice();
+
+export const isTablet = PlatformHelpers.isTablet();
 
 export const DEVICE_WIDTH = Dimensions.get("window").width;
 export const DEVICE_HEIGHT = Dimensions.get("window").height;

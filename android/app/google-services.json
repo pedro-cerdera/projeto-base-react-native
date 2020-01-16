@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "603151749156",
-    "firebase_url": "https://contemplei-test.firebaseio.com",
-    "project_id": "contemplei-test",
-    "storage_bucket": "contemplei-test.appspot.com"
+    "project_number": "718270369101",
+    "firebase_url": "https://contemplei-investimentos.firebaseio.com",
+    "project_id": "contemplei-investimentos",
+    "storage_bucket": "contemplei-investimentos.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:603151749156:android:c64b09a6c07798a5ca48b1",
+        "mobilesdk_app_id": "1:718270369101:android:08b79c77fe02cecabdfb04",
         "android_client_info": {
           "package_name": "com.contemplei.investimentos"
         }
       },
       "oauth_client": [
         {
-          "client_id": "603151749156-9mf6dd31uoti4bjb6k6vch0gr1bao2lj.apps.googleusercontent.com",
+          "client_id": "718270369101-bc84cvj9urplmopcqt76dvdsoabpmhia.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBVrM6XkCvS9bila3QUh-O5kphhw1nfBvc"
+          "current_key": "AIzaSyD_IpsuxgJ8s58--k8PffruF8FFOa3yAjA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "603151749156-9mf6dd31uoti4bjb6k6vch0gr1bao2lj.apps.googleusercontent.com",
+              "client_id": "718270369101-bc84cvj9urplmopcqt76dvdsoabpmhia.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "603151749156-8n3ssqe3civor8bcgsrqu4qe70r73o0e.apps.googleusercontent.com",
+              "client_id": "718270369101-i5ai24mt6b35pcuscqsllu7idc686k0p.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "org.reactjs.native.example.Contemplei--x2007-Investimentos"
+                "bundle_id": "com.contemplei.investimentos"
               }
             }
           ]

@@ -21,7 +21,7 @@ const Input = props => {
       <TextInputDef {...props} ref={props.refProp} />
       {props.error && (
         <CustomText
-          verticalSpacing
+          topSpacing
           leftSpacing
           type={"caption"}
           color={StyleGuide.colors.red}

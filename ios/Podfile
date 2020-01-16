@@ -1,6 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
+project "Contemplei Investidores.xcodeproj"
+
 target 'ContempleiInvestidores' do
   # Pods for ContempleiInvestidores
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"

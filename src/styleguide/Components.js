@@ -54,7 +54,7 @@ export const Link = styled(CustomText)`
   text-align: ${props => (props.center ? "center" : "left")};
   text-decoration: ${props => (props.underline ? "underline" : "none")};
   text-decoration-color: ${Colors.primary};
-  margin: ${props => (props.verticalSpacing ? 10 : 0)}px 0
+  margin: ${props => (props.verticalSpacing || props.topSpacing ? 10 : 0)}px 0
     ${props => (props.verticalSpacing || props.bottomSpacing ? 10 : 0)}px;
 `;
 

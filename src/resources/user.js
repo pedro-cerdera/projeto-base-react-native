@@ -1,19 +1,30 @@
 import requestUtils from "utils/request";
 
 export default {
-  login(email, password) {
+  login(cpf, password) {
     return requestUtils({
-      url: "/users/login",
+      url: "/user/login",
       method: "POST",
       data: {
-        email,
-        senha: password,
+        cpf,
+        password,
       },
+      onRequestFail: () => {},
+    });
+  },
+  recover(cpf) {
+    return requestUtils({
+      url: "/user/recover",
+      method: "POST",
+      data: {
+        cpf,
+      },
+      onRequestFail: () => {},
     });
   },
   loadStart(token) {
     return requestUtils({
-      url: "/users/load",
+      url: "/user/load",
       method: "GET",
       token,
     });
